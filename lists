@@ -1,0 +1,5 @@
+#Lists
+proglang=["python","java","C++"]
+x,y,z=proglang
+print(proglang)
+print(x,y,z)
