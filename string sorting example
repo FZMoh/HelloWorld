@@ -1,0 +1,14 @@
+#organize - sort alphabetically, sort(reverse=True), reverse
+beatles = ["here", "comes", "the", "sun"]
+print(beatles)
+beatles.sort() # goes from A to Z
+print(beatles)
+## way 1 to reverse
+beatles.reverse() # goes from Z to A
+print(beatles)
+## way 2 to reverse
+beatles.sort(reverse = True) # goes from Z to A
+print(beatles)
+## works with string only - you cannot sort numbers
+nums = [2, 10, 100, 50]
+print(nums.sort())
