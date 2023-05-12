@@ -1,0 +1,11 @@
+#create a function to find the maximum of 2 numbers
+def max_of_two( x, y ):
+    if x > y:
+        return x
+    else 
+        return y
+
+a=int(input("Enter 1 st number"))
+b= int(input("enter the 2 nd number"))
+print("The maximum number is :",max_of_two(a,b))
+
